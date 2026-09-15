@@ -1,0 +1,43 @@
+<svg width="1440" height="446" viewBox="0 0 1440 446" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4025_40)">
+<g filter="url(#filter0_gn_4025_40)">
+<path d="M374.5 51.5L238.5 85L0 5.96491V139.585L105 160.5L252 194H323.5L388 160.5L550.5 250H749L996.5 337L1128 381.5H1210.5L1393.5 446L1440 422.384V238.5H1253L1045.5 136H927.5H749L649 51.5H448H374.5Z" fill="#323232"/>
+</g>
+<rect x="1079.75" y="237" width="22" height="23" rx="11" fill="black"/>
+<rect x="950" y="207" width="22" height="23" rx="11" fill="black"/>
+<rect x="1079.75" y="258" width="22" height="53" fill="black"/>
+<rect x="950" y="228" width="22" height="53" fill="black"/>
+<path d="M1094.75 302L1105.75 320.214L1100.77 369" stroke="black" stroke-width="18"/>
+<path d="M965 272L976 290.214L971.019 339" stroke="black" stroke-width="18"/>
+<path d="M1086.75 309L1083.75 369" stroke="black" stroke-width="18"/>
+<path d="M957 279L954 339" stroke="black" stroke-width="18"/>
+<path d="M1097.75 273L1114.75 291" stroke="black" stroke-width="18"/>
+<path d="M968 243L985 261" stroke="black" stroke-width="18"/>
+</g>
+<defs>
+<filter id="filter0_gn_4025_40" x="-14.8" y="-8.83509" width="1469.6" height="469.635" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.043290041387081146 0.043290041387081146" numOctaves="3" seed="7515" />
+<feDisplacementMap in="shape" scale="29.600000381469727" xChannelSelector="R" yChannelSelector="G" result="displacedImage" width="100%" height="100%" />
+<feMerge result="effect1_texture_4025_40">
+<feMergeNode in="displacedImage"/>
+</feMerge>
+<feTurbulence type="fractalNoise" baseFrequency="0.12820512056350708 0.12820512056350708" stitchTiles="stitch" numOctaves="3" result="noise" seed="2159" />
+<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise1">
+<feFuncA type="discrete" tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="effect1_texture_4025_40" in="coloredNoise1" result="noise1Clipped" />
+<feFlood flood-color="rgba(0, 0, 0, 0.25)" result="color1Flood" />
+<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+<feMerge result="effect2_noise_4025_40">
+<feMergeNode in="effect1_texture_4025_40" />
+<feMergeNode in="color1" />
+</feMerge>
+</filter>
+<clipPath id="clip0_4025_40">
+<rect width="1440" height="446" fill="white"/>
+</clipPath>
+</defs>
+</svg>

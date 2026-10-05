@@ -1,5 +1,9 @@
 html {
-    background-color: black;
+    /* from https://stock.adobe.com/images/grunge-background-of-black-and-white-abstract-of-cracks-chips-dot-isolated-on-transparent-background-png-file/566224854?prev_url=detail */
+    /* based on https://www.w3schools.com/cssref/pr_background-image.php */
+    background-image: url(AdobeStock_566224854_EDITED.png);
+    /* from https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/named-color */
+    background-color: #101010;
 }
 
 h1 {
@@ -22,6 +26,11 @@ body {
     width:100%;
 }
 
+#cave2 {
+    /* based on https://stackoverflow.com/questions/32875695/flip-mirror-an-image-horizontally-vertically-with-css */
+    transform: scale(-1,1);
+}
+
 
 
 img {
@@ -30,6 +39,8 @@ img {
     object-fit: fill;
 }
 
+
+
 h3{
     color: white;
 }
@@ -37,6 +48,9 @@ h3{
 p{
     width: 400px;
     color: white;
+    /* based on https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/quotes */
+    /* and https://www.freecodecamp.org/news/smart-quotes-single-quote-and-double-quotation-mark-for-copy-paste/ */
+    quotes: "〝" "〞";
 }
 
 /* All normal text */
@@ -107,6 +121,10 @@ a {
     width: 60%;   
 }
 
+#sicksvg {
+    height: 40px;
+}
+
 /* final p */
 
 #ftxt0grew {
@@ -115,6 +133,8 @@ a {
 
 #ftxt0sick {
     font-size: 2.5em;
+    /* transform: rotate(10deg); */
+        /* doesn't work inline */
 }
 
 #ftxt1 {
@@ -133,4 +153,71 @@ a {
 #ftxt4 {
     font-size: 6.5em;
     line-height: 0.7;
+}
+
+
+/* Fortunato */
+/* based on https://stackoverflow.com/questions/6780614/css-how-to-position-two-elements-on-top-of-each-other-without-specifying-a-hei */
+
+.forts {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* text-align: center; */
+    
+}
+
+.fort1 {
+    /* based on https://stackoverflow.com/questions/32875695/flip-mirror-an-image-horizontally-vertically-with-css */
+    transform: rotate(15deg);
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1;
+    /* transform: (120px, 50%); */
+    font-size: 99px;
+}
+
+.fort2 {
+    /* based on https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform */
+    /* transform: translate(30px, 20px); */
+    text-align: center;
+    transform: rotate(-10deg) translate(-120px, -20px);
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 200px;
+    opacity:0.3;
+    /* transform: rotate(-30px, -20px); */
+    
+}
+
+.fort3 {
+    transform: rotate(2deg);
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 300px;
+    opacity: 0.2;
+}
+
+#one2 {
+    transform: rotate(-10deg);
+}
+
+#two2 {
+    transform: rotate(20deg);
+}
+
+#three2 {
+    transform: rotate(-7deg);
+}
+
+.hl {
+    font-size: 1.5em;
+}
+
+.fancyhl {
+    color:crimson;
+    /* font-weight: bolder; */
 }
